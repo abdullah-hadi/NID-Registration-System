@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        #bedef4, #93c8ec
+    );
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center {
+    margin: 70px auto;
+    width: 540px;
+    border: 1px solid #243342;
+    border-radius: 5px;
+    position: relative;
+    background: #2c3e50;
+}
+.center .btns {
+    display: flex;
+    padding: 40px 0 20px 30px;
+}
+.center a {
+    text-decoration: none;
+    padding: 15px 75px;
+    font-size: 30px;
+    color: white;
+    font-family: arial;
+    background-color: #2981bc;
+}
+a.a2 {
+    background: #34495a;
+}
+.center .header {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding: 5px 0 30px 0;
+}
+/* 
+.center .header1 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding: 5px 0 30px 0;
+} */
+
+form input {
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #3498db;
+    border-radius: 2px;
+    padding: 0px 10px;
+    margin-left: 35px;
+    color: white;
+}
+
+::placeholder {
+    color: #7dbde8;
+}
+
+form input.lstname {
+    margin-left: 20px;
+}
+
+form input.email {
+    margin-top: 20px;
+    width: 445px;
+}
+
+form input.password {
+    margin-top: 20px;
+    width: 445px;
+}
+form input.emailorphone {
+    width: 445px;
+}
+
+form input[type = "submit"] {
+    margin: 30px 0 40px 35px;
+    width: 465px;
+    height: 50px;
+    font-size: 23px;
+    cursor: pointer;
+    background: #2981bc;
+    color: white;
+    border: 1px solid #2573a7;
+}
+
+.center .login-form {
+    display: none;
+}
